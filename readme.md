@@ -1,4 +1,5 @@
 Boston Rental price predict:
+
 Renting is very important in our life. Tenant has requriment for buget and area. Landlord wants to figure out hou much to ask. So I want to build a model to help peopel find theis best chioce
 `https://www.rentals.com/` is  a very famous website people use to find the rental information. In this project, I only scraped the rental information in Boston area. Besides, there is a big relationship between the rental price and the town's economy. Around Boston area, there are 30 towns, so I also scrape the town's median income form `https://en.wikipedia.org/wiki/Boston#Twin_towns_and_sister_cities`. Another important feature for rental price is its location. If the location is near subway, school or finial center, the rental price which be higher compare to the market price. So I also calculate the distance between the location to subway, and location to some famous attractions (such as MIT, Boston University, South Station etc).
 
