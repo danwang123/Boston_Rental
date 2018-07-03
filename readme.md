@@ -6,6 +6,7 @@ Renting is very important in our life. Tenant has requriment for buget and area.
 EDA_1:
 
 ![](https://raw.githubusercontent.com/danwang123/Boston_Rental/master/Image/Boston%20Rental%20Price%20Prediction.003.jpeg)
+
 From this plot, we can find with the increse of square feet, the rent is increaing for both House and Apartment.There are some outliers (sqft less than 50 and larger than 6000). In the fllowing process, I delete the oulier from the dataset.
 
 ![](https://raw.githubusercontent.com/danwang123/Boston_Rental/master/Image/Boston%20Rental%20Price%20Prediction.004.jpeg)
@@ -13,8 +14,11 @@ From this plot, we can find with the increse of square feet, the rent is increai
 Data Imputing:
 
 ![](https://raw.githubusercontent.com/danwang123/Boston_Rental/master/Image/Boston%20Rental%20Price%20Prediction.005.jpeg)
-After checking the miss data, I find most of the missing value is caused randomly. Then I use KNN to imoute the missing value. 
+
+After checking the miss data, I find most of the missing value is caused randomly. Then I use KNN to imoute the missing value.
+
 ![](https://raw.githubusercontent.com/danwang123/Boston_Rental/master/Image/Boston%20Rental%20Price%20Prediction.006.jpeg)
+
 From the data imputation plot, we can find the imputated and origin data have the same distribution.
 
 Feature Importance:
@@ -23,5 +27,7 @@ Feature Importance:
 Data Visualization
 ![](https://raw.githubusercontent.com/danwang123/Boston_Rental/master/Image/Boston%20Rental%20Price%20Prediction.008.jpeg)
 ![](https://raw.githubusercontent.com/danwang123/Boston_Rental/master/Image/Boston%20Rental%20Price%20Prediction.009.jpeg)
+
 From these two plot, we can find the boosting methold works best in my dataset. Then by using shiny, I build a app to help people find their best choice.
+
 ![](https://raw.githubusercontent.com/danwang123/Boston_Rental/master/Image/Screen%20Shot%20.png)
